@@ -8,6 +8,7 @@ Sistema de visão computacional para identificação e localização automática
 
 ## Sumario
 
+- [Exemplos de deteccao](#exemplos-de-deteccao)
 - [O que e este projeto](#o-que-e-este-projeto)
 - [O dataset: analise completa](#o-dataset-analise-completa)
 - [O problema dos labels e como resolvemos](#o-problema-dos-labels-e-como-resolvemos)
@@ -20,6 +21,16 @@ Sistema de visão computacional para identificação e localização automática
   - [Passo 4: deteccao em tempo real](#passo-4-deteccao-em-tempo-real)
 - [Como o codigo funciona por dentro](#como-o-codigo-funciona-por-dentro)
 - [Licenca](#licenca)
+
+---
+
+## Exemplos de deteccao
+
+Abaixo estao alguns exemplos do sistema em funcionamento, processando imagens de teste e identificando as frutas com suas respectivas confiancas:
+
+| Maçã e Banana | Cesta de Laranjas |
+|:---:|:---:|
+| ![Exemplo 1](assets/examples/result_1.jpg) | ![Exemplo 2](assets/examples/result_2.jpg) |
 
 ---
 
