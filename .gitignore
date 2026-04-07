@@ -1,0 +1,42 @@
+# Dataset (grande demais para versionamento)
+dataset/
+
+# Artigo PDF
+*.pdf
+
+# Pesos e resultados de treinamento
+runs/
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+wandb/
+
+# Dataset preparado (gerado pelos scripts)
+data/
